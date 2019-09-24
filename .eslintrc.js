@@ -1,8 +1,10 @@
 module.exports = {
+
 "env": {
 "browser": true
 },
 "extends": "eslint:recommended", "rules": {
+
 "indent": [
 "error",
 2
@@ -18,6 +20,7 @@ module.exports = {
 "semi": [
 "error",
 "always"
-]
+],
+"no-console": "off"
 }
 };
