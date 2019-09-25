@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>CoffeRun</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   </head>
   <body class = "container">
     <header>
@@ -12,7 +12,7 @@
     <section>
       <div class="panel panel-default">
         <div class="panel-body">
-          <form data-coffe-order="form">
+          <form data-coffee-order="form">
 
             <div class="form-group">
               <label> Coffee Order</label>
@@ -63,14 +63,17 @@
 
         </div>
       </div>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <h4>Pending Orders:</h4>
+            <div data-coffee-order="checklist">
+            </div>
+        </div>
+      </div>
     </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js" charset="utf-8"></script>
-    <!-- <script src="scripts/formhandler.js" charset="utf-8"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <script src="scripts/checklist.js" charset="utf-8"></script>
+    <script src="scripts/formhandler.js" charset="utf-8"></script>
     <script src = "scripts/datastore.js" charset="utf-8"></script>
     <script src = "scripts/truck.js" charset="utf-8"></script>
     <script src="scripts/main.js" charset="utf-8"></script>
-
-
-
-  </body>
-</html>
